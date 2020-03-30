@@ -18,7 +18,9 @@ layout: default
     <header>
       <ul class="tabs">
         <li class="tabs__item">Posts</li>
-        <li class="tabs__item">Categories</li>
+        <li class="tabs__item">Resources</li>
+        <li class="tabs__item">Current Revivals</li>
+        <li class="tabs__item">Map</li>
       </ul>
     </header>
 
@@ -58,7 +60,10 @@ layout: default
 
     </div>
 
-    {% include categories-tab.html %}
+    {% include resources-tab.html %}
+    {% include current_revivals-tab.html %}
+    {% include map-tab.html %}
+
 
   </div>
 
